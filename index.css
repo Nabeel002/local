@@ -1,0 +1,65 @@
+
+:root{
+    --roboto: "Roboto", sans-serif;
+    --black:#1E1E1E;
+    --orange:#F15A22;
+    
+
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.heading{
+    color: var(--orange);
+    font-family: var(--roboto);
+    font-size: 2.633vw;
+    margin-bottom: .4vw;
+}
+
+.paragraph{
+    font-size: 1.317vw;
+    font-family: var(--roboto);
+    font-weight: 300;
+    color: white;
+ 
+    line-height: 2.3vw;
+
+}
+.stacked-col-1{
+    background-color: var(--black);
+
+
+}
+.underline-btn{
+    font-size:0.922vw;
+    color: white;
+    font-weight: 500;
+    background-color: transparent;
+    border-radius: 50px;
+    border: solid 1px white;
+    padding: 0.987vw 2.633vw;
+    margin-top: 1.5vw;
+    cursor:pointer;
+}
+
+.inner-col{
+    padding-left: 9.75vw;
+    padding-top: 7.9vw;
+}
+
+.animated-img{
+    width: 98vw;
+    margin-top: -9vw;
+
+}
+
+.stacked-col-3{
+    background-color: var(--orange);
+    height: 10vw;
+     margin-top: -5.5vw;
+}
